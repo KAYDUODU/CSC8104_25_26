@@ -1,0 +1,14 @@
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/contact/ContactValidator.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/util/RestServiceException.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/util/Resources.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/area/AreaService.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/Application.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/contact/UniqueEmailException.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/area/Area.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/contact/Contact.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/contact/ContactRestService.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/util/RestServiceExceptionMapper.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/area/InvalidAreaCodeException.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/contact/ContactRepository.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/util/ErrorMessage.java
+/Users/kwabenaadu-duodu/Allgit/EnterpriseMiddleware/CSC8104_25_26/CSC8104-Quarkus-1.0.3/src/main/java/uk/ac/newcastle/enterprisemiddleware/contact/ContactService.java

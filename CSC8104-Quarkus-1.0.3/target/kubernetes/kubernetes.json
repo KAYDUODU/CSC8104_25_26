@@ -1,0 +1,82 @@
+[{
+  "apiVersion" : "v1",
+  "kind" : "Service",
+  "metadata" : {
+    "annotations" : {
+      "app.quarkus.io/commit-id" : "d4a8c3246a73659f6c31440b5aec2b61185a2caa",
+      "app.quarkus.io/build-timestamp" : "2025-10-27 - 18:32:31 +0000"
+    },
+    "labels" : {
+      "app.kubernetes.io/name" : "csc8104",
+      "app.kubernetes.io/version" : "1.0.0-SNAPSHOT"
+    },
+    "name" : "csc8104"
+  },
+  "spec" : {
+    "ports" : [ {
+      "name" : "http",
+      "port" : 80,
+      "targetPort" : 8080
+    } ],
+    "selector" : {
+      "app.kubernetes.io/name" : "csc8104",
+      "app.kubernetes.io/version" : "1.0.0-SNAPSHOT"
+    },
+    "type" : "ClusterIP"
+  }
+},{
+  "apiVersion" : "apps/v1",
+  "kind" : "Deployment",
+  "metadata" : {
+    "annotations" : {
+      "app.quarkus.io/commit-id" : "d4a8c3246a73659f6c31440b5aec2b61185a2caa",
+      "app.quarkus.io/build-timestamp" : "2025-10-27 - 18:32:31 +0000"
+    },
+    "labels" : {
+      "app.kubernetes.io/version" : "1.0.0-SNAPSHOT",
+      "app.kubernetes.io/name" : "csc8104"
+    },
+    "name" : "csc8104"
+  },
+  "spec" : {
+    "replicas" : 1,
+    "selector" : {
+      "matchLabels" : {
+        "app.kubernetes.io/version" : "1.0.0-SNAPSHOT",
+        "app.kubernetes.io/name" : "csc8104"
+      }
+    },
+    "template" : {
+      "metadata" : {
+        "annotations" : {
+          "app.quarkus.io/commit-id" : "d4a8c3246a73659f6c31440b5aec2b61185a2caa",
+          "app.quarkus.io/build-timestamp" : "2025-10-27 - 18:32:31 +0000"
+        },
+        "labels" : {
+          "app.kubernetes.io/version" : "1.0.0-SNAPSHOT",
+          "app.kubernetes.io/name" : "csc8104"
+        }
+      },
+      "spec" : {
+        "containers" : [ {
+          "env" : [ {
+            "name" : "KUBERNETES_NAMESPACE",
+            "valueFrom" : {
+              "fieldRef" : {
+                "fieldPath" : "metadata.namespace"
+              }
+            }
+          } ],
+          "image" : "kwabenaadu-duodu/csc8104:1.0.0-SNAPSHOT",
+          "imagePullPolicy" : "Always",
+          "name" : "csc8104",
+          "ports" : [ {
+            "containerPort" : 8080,
+            "name" : "http",
+            "protocol" : "TCP"
+          } ]
+        } ]
+      }
+    }
+  }
+}]
