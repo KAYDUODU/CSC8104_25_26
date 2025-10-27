@@ -4,8 +4,8 @@ kind: Service
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: d4a8c3246a73659f6c31440b5aec2b61185a2caa
-    app.quarkus.io/build-timestamp: 2025-10-27 - 18:32:31 +0000
+    app.quarkus.io/commit-id: 99a39c281c2ed94096b557fa60dc541bf3afd567
+    app.quarkus.io/build-timestamp: 2025-10-27 - 19:15:16 +0000
   labels:
     app.kubernetes.io/name: csc8104
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
@@ -26,8 +26,8 @@ kind: ImageStream
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: d4a8c3246a73659f6c31440b5aec2b61185a2caa
-    app.quarkus.io/build-timestamp: 2025-10-27 - 18:32:31 +0000
+    app.quarkus.io/commit-id: 99a39c281c2ed94096b557fa60dc541bf3afd567
+    app.quarkus.io/build-timestamp: 2025-10-27 - 19:15:16 +0000
   labels:
     app.kubernetes.io/name: csc8104
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
@@ -50,8 +50,8 @@ kind: BuildConfig
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: d4a8c3246a73659f6c31440b5aec2b61185a2caa
-    app.quarkus.io/build-timestamp: 2025-10-27 - 18:32:31 +0000
+    app.quarkus.io/commit-id: 99a39c281c2ed94096b557fa60dc541bf3afd567
+    app.quarkus.io/build-timestamp: 2025-10-27 - 19:15:16 +0000
   labels:
     app.kubernetes.io/name: csc8104
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
@@ -75,8 +75,8 @@ kind: DeploymentConfig
 metadata:
   annotations:
     app.openshift.io/vcs-url: <<unknown>>
-    app.quarkus.io/commit-id: d4a8c3246a73659f6c31440b5aec2b61185a2caa
-    app.quarkus.io/build-timestamp: 2025-10-27 - 18:32:31 +0000
+    app.quarkus.io/commit-id: 99a39c281c2ed94096b557fa60dc541bf3afd567
+    app.quarkus.io/build-timestamp: 2025-10-27 - 19:15:16 +0000
   labels:
     app.kubernetes.io/name: csc8104
     app.kubernetes.io/version: 1.0.0-SNAPSHOT
@@ -91,8 +91,8 @@ spec:
     metadata:
       annotations:
         app.openshift.io/vcs-url: <<unknown>>
-        app.quarkus.io/commit-id: d4a8c3246a73659f6c31440b5aec2b61185a2caa
-        app.quarkus.io/build-timestamp: 2025-10-27 - 18:32:31 +0000
+        app.quarkus.io/commit-id: 99a39c281c2ed94096b557fa60dc541bf3afd567
+        app.quarkus.io/build-timestamp: 2025-10-27 - 19:15:16 +0000
       labels:
         app.kubernetes.io/version: 1.0.0-SNAPSHOT
         app.kubernetes.io/name: csc8104
